@@ -1,0 +1,99 @@
+/*### Neutral*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  font-size: 0.875em;
+  background-color: hsl(0, 0%, 8%);
+  color: #fff;
+}
+
+p {
+  opacity: 0.7;
+}
+
+/*### Neutral*/
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.7em;
+}
+main .Card--container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: none;
+  text-align: center;
+  width: 330px;
+  height: 600px;
+  padding: 1em 2em;
+  background: hsl(0, 0%, 12%);
+  border-radius: 10px;
+}
+main .Card--container .Card--top-infomation {
+  margin-top: 15%;
+}
+main .Card--container .Card--top-infomation .card--top--title {
+  font-size: 1.7em;
+  margin-bottom: 0.4em;
+}
+main .Card--container .Card--top-infomation .card--top--subtitle {
+  font-size: 0.78em;
+  margin-bottom: 0.4em;
+  color: hsl(75, 94%, 57%);
+  opacity: 0.7;
+}
+main .Card--container .Card--top-infomation .card--top--text {
+  margin-top: 1.2em;
+}
+main .Card--container .Card--top-infomation #profile {
+  width: 75px;
+  border-radius: 50%;
+  margin-bottom: 1em;
+}
+
+/*### Neutral*/
+.btn--container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 1.5em;
+}
+.btn--container button {
+  border: none;
+  background: hsl(0, 0%, 20%);
+  color: #fff;
+  cursor: pointer;
+}
+.btn--container button {
+  width: 275px;
+  height: 50px;
+  margin: 0.5em 0;
+  border-radius: 10px;
+  font-weight: 600;
+}
+.btn--container button:active, .btn--container button:hover {
+  background: hsl(75, 94%, 57%);
+  transition: background 2s ease-in-out;
+}
+
+@media (min-width: 1000px) {
+  main .Card--container {
+    width: 360px;
+    height: 600px;
+  }
+  main .Card--container .Card--top-infomation {
+    margin-top: 12%;
+  }
+}
+
+/*# sourceMappingURL=style.min.css.map */

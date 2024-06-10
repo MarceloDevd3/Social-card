@@ -1,0 +1,35 @@
+@import "root";
+@import "mix";
+
+
+
+.btn--container {
+    @include center(column, center,center);
+    flex-wrap: wrap;
+    margin-top: 1.5em;
+
+    button {
+        border: none;
+        background:  $Grey;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    button {
+        width: 275px;
+        height: 50px;
+        margin: 0.5em 0;
+        border-radius: 10px;
+        font-weight: 600;
+    }
+
+    button:active, button:hover {
+       background:  $Green;
+       transition: background 2s ease-in-out;
+    }
+
+
+
+   
+
+}

@@ -1,0 +1,14 @@
+@mixin center($direction : row, $align: none, $item: none) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $align;
+    align-items: $item;
+}
+
+@mixin font($font) {
+    font-size: $font;
+}
+
+@mixin marginBottom($mbt) {
+    margin-bottom: $mbt;
+}
